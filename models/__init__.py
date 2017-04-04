@@ -1,0 +1,1 @@
+import hotel_folio_inherit
