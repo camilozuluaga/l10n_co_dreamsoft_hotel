@@ -52,6 +52,6 @@ class hotel_folio_inherit(models.Model):
 		for rec in self:
 			numero_habitacion = self.env['hotel_reservation.line'].browse(rec.reservation_id.id).name
 			if numero_habitacion:
-				nombre = 'Hab/ '+numero_habitacion+'/'+rec.name
+				nombre = 'Hab '+numero_habitacion+'-'+rec.name
 				res.append((rec.id, nombre))
 		return res
