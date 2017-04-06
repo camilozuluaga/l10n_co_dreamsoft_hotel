@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+  <data>
+
+    <!-- Inherit view hotel restaurant reservation form-->
+    <record model="ir.ui.view" id="view_hotel_room">
+      <field name="model">hotel.room</field>
+      <field name="inherit_id" ref="hotel.view_hotel_room_form"/>
+      <field name="arch" type="xml">
+
+         <!-- Adding fields to allow additional people to the room -->
+        <xpath expr="//field[@name='capacity']" position="after">
+          <field name="additional_people"/>
+          <field name="maximum_people" attrs="{'invisible':[('additional_people','=',False)], 'required':[('additional_people','=',True)]}"/>
+          <field name="value_person" attrs="{'invisible':[('additional_people','=',False)], 'required':[('additional_people','=',True)]}"/>
+        </xpath>
+        <!-- End fields to allow additional people to the room  -->
+        
+      </field>
+    </record>
+
+  </data>
+</openerp>
