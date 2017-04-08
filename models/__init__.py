@@ -1,2 +1,3 @@
 import hotel_folio_inherit
 import hotel_hotel
+import hotel_room
