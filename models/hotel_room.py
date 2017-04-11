@@ -33,7 +33,7 @@ _logger = logging.getLogger(__name__)
 
 class hotel_room(models.Model):
 
-	name = 'hotel.room'
+	_name = 'hotel.room'
 	_inherit = 'hotel.room'
 
 	additional_people = fields.Boolean('Permitir Personas Adicionales')

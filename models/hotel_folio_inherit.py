@@ -33,7 +33,7 @@ _logger = logging.getLogger(__name__)
 
 class hotel_folio_inherit(models.Model):
 
-	name = 'hotel.folio'
+	_name = 'hotel.folio'
 
 	_inherit = 'hotel.folio'
 
