@@ -58,9 +58,9 @@ class hotel_hotel(models.Model):
 
 		#Obtener TimeZone Usuario
 		tz = self._context.get('tz','America/Bogota')
+		_logger.info(type(tz))
 		if not tz:
-			raise ValidationError(_('Zona Horaria - GHOST'),
-								 _('Por favor configure su zona horaria para acceder a esta funcionalidad del sistema o solicite soporte.'))
+			tz = 'America/Bogota'
 
 		fecha_sin_tz = datetime.datetime.strptime(fecha_usuario, DEFAULT_SERVER_DATETIME_FORMAT)
 		tz_usuario = pytz.timezone(tz)
