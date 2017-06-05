@@ -19653,6 +19653,7 @@ msgstr "Reserva actual"
 msgid "Current Reservations"
 msgstr "Reservaciones actuales"
 
+
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config_current_session_id
 msgid "Current Session"

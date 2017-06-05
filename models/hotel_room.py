@@ -43,10 +43,10 @@ class hotel_room(models.Model):
 	
 
 	@api.constrains('capacity')
-	def verificar_adultos(self):
+	def verificar_capacidad(self):
 
 		if self.capacity<=0:
-			raise except_orm(_('Warning'), _('La capacidad debe ser mayor a cero(0'))
+			raise except_orm(_('Warning'), _('La capacidad debe ser mayor a cero(0)'))
 
 
 
