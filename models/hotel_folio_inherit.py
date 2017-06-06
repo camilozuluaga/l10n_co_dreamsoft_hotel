@@ -48,10 +48,12 @@ class hotel_folio_inherit(models.Model):
 	@api.multi
 	def name_get(self):
 		nombre = ''
-		res = []
+		res = super(hotel_folio_inherit, self).name_get()
 		for rec in self:
-			numero_habitacion = self.env['hotel_reservation.line'].browse(rec.reservation_id.id).name
-			if numero_habitacion:
-				nombre = 'Hab '+numero_habitacion+'-'+rec.name
-				res.append((rec.id, nombre))
+			numero_habitacion_id = self.env['hotel_reservation.line'].search([('line_id', '=', rec.reservation_id.id)])
+			if numero_habitacion_id:
+				for datos in self.env['hotel_reservation.line'].browse(numero_habitacion_id):
+					nombre = 'Hab - '+datos.id.name+'-'+rec.name
+					res.append((rec.id, nombre))
+				
 		return res

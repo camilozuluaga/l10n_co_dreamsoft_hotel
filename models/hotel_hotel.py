@@ -58,7 +58,6 @@ class hotel_hotel(models.Model):
 
 		#Obtener TimeZone Usuario
 		tz = self._context.get('tz','America/Bogota')
-		_logger.info(type(tz))
 		if not tz:
 			tz = 'America/Bogota'
 
