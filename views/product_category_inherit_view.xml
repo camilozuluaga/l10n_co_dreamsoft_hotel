@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+  <data>
+
+	<!-- Inherit view hotel restaurant reservation form-->
+	<record model="ir.ui.view" id="view_hotel_product_category_inherit">
+	  <field name="model">product.category</field>
+	  <field name="inherit_id" ref="product.product_category_form_view"/>
+	  
+	  <field name="arch" type="xml">
+
+		<xpath expr="//field[@name='name']" position="attributes">
+     <field name="name"/>
+     </xpath>
+		
+ 
+	  </field>
+	</record>
+
+  </data>
+</odoo>
