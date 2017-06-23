@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    
+   	<template id="login_layout" inherit_id="web.login_layout" name="Login Layout Inherit">
+
+   		
+   		<xpath expr="//div[@class='text-center']/img" position="attributes">
+   			<attribute name="class" img='/static/src/img/clinicaDigital.png'>company_logo</attribute>
+   		</xpath>
+   	</template>
+   	
+   	<template id="login" inherit_id="web.login" name="Login Inherit">
+   		<xpath expr="//label[@for='db']" position="replace" />
+		<xpath expr="//label[@for='login']" position="replace" />
+		<xpath expr="//label[@for='password']" position="replace" />
+		
+		<xpath expr="//input[@name='login']" position="attributes">
+			<attribute name="placeholder">Email ...</attribute>
+			<attribute name="autocomplete">off</attribute>
+			<attribute name="autocorrect">off</attribute>
+		</xpath>
+		
+		<xpath expr="//input[@name='password']" position="attributes">
+			<attribute name="placeholder">Password ...</attribute>
+		</xpath>
+	
+		
+	</template>
+</odoo>

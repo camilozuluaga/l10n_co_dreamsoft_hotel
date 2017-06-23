@@ -11,7 +11,7 @@
 				 <!-- Adding fields to allow additional people to the room -->
 				<xpath expr="//field[@name='capacity']" position="after">
 					<field name="additional_people"/>
-					<field name="maximum_people" attrs="{'invisible':[('additional_people','=',False)], 'required':[('additional_people','=',True)]}"/>
+					<field name="quantity_people" attrs="{'invisible':[('additional_people','=',False)], 'required':[('additional_people','=',True)]}"/>
 					<field name="value_person" attrs="{'invisible':[('additional_people','=',False)], 'required':[('additional_people','=',True)]}"/>
 				</xpath>
 

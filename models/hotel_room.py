@@ -38,7 +38,7 @@ class hotel_room(models.Model):
 
 
 	additional_people = fields.Boolean('Permitir Personas Adicionales')
-	maximum_people= fields.Integer('Cantidad Personas Adicionales')
+	quantity_people= fields.Integer('Cantidad Personas Adicionales')
 	value_person= fields.Integer('Valor por Persona')
 	
 
