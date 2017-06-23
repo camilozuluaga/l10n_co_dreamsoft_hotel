@@ -8194,14 +8194,14 @@ msgstr "<strong>Código del Cliente:</strong>"
 #. module: hotel_restaurant
 #: model:ir.ui.view,arch_db:hotel_restaurant.report_order_bill
 msgid "<strong>Customer Name : </strong>"
-msgstr "<strong>Customer Name : </strong>"
+msgstr "<strong>Nombre del cliente : </strong>"
 
 #. modules: hotel_restaurant, hotel_pos_restaurant
 #: model:ir.ui.view,arch_db:hotel_pos_restaurant.report_folio_pos
 #: model:ir.ui.view,arch_db:hotel_restaurant.report_reserv_order
 #: model:ir.ui.view,arch_db:hotel_restaurant.report_rest_order
 msgid "<strong>Customer Name :</strong>"
-msgstr "<strong>Customer Name :</strong>"
+msgstr "<strong>Nombre del cliente :</strong>"
 
 #. modules: hotel_restaurant, hotel_pos_restaurant, hotel
 #: model:ir.ui.view,arch_db:hotel.report_hotel_folio
@@ -8210,7 +8210,7 @@ msgstr "<strong>Customer Name :</strong>"
 #: model:ir.ui.view,arch_db:hotel_restaurant.report_reserv_order
 #: model:ir.ui.view,arch_db:hotel_restaurant.report_rest_order
 msgid "<strong>Customer Name</strong>"
-msgstr "<strong>Customer Name</strong>"
+msgstr "<strong>Nombre del cliente </strong>"
 
 #. module: sale_stock
 #: model:ir.ui.view,arch_db:sale_stock.report_delivery_document_inherit_sale_stock
@@ -8220,12 +8220,12 @@ msgstr "<strong>Su referencia:</strong>"
 #. module: hotel_restaurant
 #: model:ir.ui.view,arch_db:hotel_restaurant.report_order_bill
 msgid "<strong>Date : </strong>"
-msgstr "<strong>Date : </strong>"
+msgstr "<strong>Fecha : </strong>"
 
 #. module: hotel
 #: model:ir.ui.view,arch_db:hotel.report_currency_exchange
 msgid "<strong>Date :</strong>"
-msgstr "<strong>Date :</strong>"
+msgstr "<strong>Fecha :</strong>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.report_financial
@@ -8325,7 +8325,7 @@ msgstr "<strong>Apuntes ordenados por:</strong>"
 #. module: hotel
 #: model:ir.ui.view,arch_db:hotel.report_currency_exchange
 msgid "<strong>Equivalent Amount</strong>"
-msgstr "<strong>Equivalent Amount</strong>"
+msgstr "<strong>Monto equivalente</strong>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -8336,7 +8336,7 @@ msgstr "<strong>Gastos</strong>"
 #: model:ir.ui.view,arch_db:account.report_invoice_document
 #: model:ir.ui.view,arch_db:sale.report_saleorder_document
 msgid "<strong>Fiscal Position Remark:</strong>"
-msgstr "<strong>Posició Fiscal:</strong>"
+msgstr "<strong>Posición Fiscal:</strong>"
 
 #. modules: hotel_restaurant, hotel_pos_restaurant, hotel
 #: model:ir.ui.view,arch_db:hotel.report_hotel_folio
@@ -8351,25 +8351,25 @@ msgstr "<strong>Folio No.</strong>"
 #: model:ir.ui.view,arch_db:hotel_restaurant.report_reserv_order
 #: model:ir.ui.view,arch_db:hotel_restaurant.report_rest_order
 msgid "<strong>Folio Number :</strong>"
-msgstr "<strong>Folio Number :</strong>"
+msgstr "<strong>Folio No. :</strong>"
 
 #. module: hotel_restaurant
 #: model:ir.ui.view,arch_db:hotel_restaurant.report_order_bill
 #: model:ir.ui.view,arch_db:hotel_restaurant.report_res_order_bill
 msgid "<strong>Folio Number</strong>"
-msgstr "<strong>Folio Number</strong>"
+msgstr "<strong>Folio No.</strong>"
 
 #. module: hotel_restaurant
 #: model:ir.ui.view,arch_db:hotel_restaurant.report_hotel_order_kot
 #: model:ir.ui.view,arch_db:hotel_restaurant.report_order_bill
 #: model:ir.ui.view,arch_db:hotel_restaurant.report_res_order_bill
 msgid "<strong>Food Item</strong>"
-msgstr "<strong>Food Item</strong>"
+msgstr "<strong>Alimento</strong>"
 
 #. module: hotel_housekeeping
 #: model:ir.ui.view,arch_db:hotel_housekeeping.report_housekeeping
 msgid "<strong>For Room:-</strong>"
-msgstr "<strong>For Room:-</strong>"
+msgstr "<strong>Para la habitacion:-</strong>"
 
 #. modules: hotel_restaurant, hotel_pos_restaurant, hotel, hotel_reservation, hotel_housekeeping
 #: model:ir.ui.view,arch_db:hotel.report_hotel_folio
@@ -8400,12 +8400,12 @@ msgstr "<strong>Nombre del huésped</strong>"
 #. module: hotel
 #: model:ir.ui.view,arch_db:hotel.report_currency_exchange
 msgid "<strong>Guest signature</strong>"
-msgstr "<strong>Guest signature</strong>"
+msgstr "<strong>Firma del huesped</strong>"
 
 #. module: hotel_housekeeping
 #: model:ir.ui.view,arch_db:hotel_housekeeping.report_housekeeping
 msgid "<strong>Housekeeper Name</strong>"
-msgstr "<strong>Housekeeper Name</strong>"
+msgstr "<strong>Nombre del ama de llaves</strong>"
 
 #. module: base
 #: model:ir.ui.view,arch_db:base.report_irmodeloverview
@@ -8443,7 +8443,7 @@ msgstr "<strong>Fecha de Facturación:</strong>"
 #: model:ir.ui.view,arch_db:hotel_restaurant.report_reserv_order
 #: model:ir.ui.view,arch_db:hotel_restaurant.report_rest_order
 msgid "<strong>Items</strong>"
-msgstr "<strong>Items</strong>"
+msgstr "<strong>Articulos</strong>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.report_journal
@@ -8589,13 +8589,13 @@ msgstr "<strong>Orden (Origen)</strong>"
 #: model:ir.ui.view,arch_db:hotel_restaurant.report_reserv_order
 #: model:ir.ui.view,arch_db:hotel_restaurant.report_rest_order
 msgid "<strong>Order Date</strong>"
-msgstr "<strong>Order Date</strong>"
+msgstr "<strong>Fecha de la orden</strong>"
 
 #. module: hotel_restaurant
 #: model:ir.ui.view,arch_db:hotel_restaurant.report_reserv_order
 #: model:ir.ui.view,arch_db:hotel_restaurant.report_rest_order
 msgid "<strong>Order Number.</strong>"
-msgstr "<strong>Order Number.</strong>"
+msgstr "<strong>Numero de la orden.</strong>"
 
 #. modules: hotel_restaurant, hotel_pos_restaurant
 #: model:ir.ui.view,arch_db:hotel_pos_restaurant.report_folio_pos
@@ -8603,7 +8603,7 @@ msgstr "<strong>Order Number.</strong>"
 #: model:ir.ui.view,arch_db:hotel_restaurant.report_order_bill
 #: model:ir.ui.view,arch_db:hotel_restaurant.report_res_order_bill
 msgid "<strong>Order Number</strong>"
-msgstr "<strong>Order Number</strong>"
+msgstr "<strong>Fecha de la orden</strong>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.report_delivery_document
@@ -8678,15 +8678,15 @@ msgstr "<strong>Cantidad</strong>"
 msgid "<strong>Rate\n"
 "                                        (per unit)\n"
 "                                    </strong>"
-msgstr "<strong>Rate\n"
-"                                        (per unit)\n"
+msgstr "<strong>Precio\n"
+"                                        (por unidad)\n"
 "                                    </strong>"
 
 #. module: hotel_restaurant
 #: model:ir.ui.view,arch_db:hotel_restaurant.report_order_bill
 #: model:ir.ui.view,arch_db:hotel_restaurant.report_res_order_bill
 msgid "<strong>Rate</strong>"
-msgstr "<strong>Rate</strong>"
+msgstr "<strong>Precio</strong>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -8742,7 +8742,7 @@ msgstr "<strong>Informes :</strong>"
 #. module: hotel_restaurant
 #: model:ir.ui.view,arch_db:hotel_restaurant.report_res_table
 msgid "<strong>Reservation No</strong>"
-msgstr "<strong>Reservation No</strong>"
+msgstr "<strong>Numero de la reservacion</strong>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -8772,7 +8772,7 @@ msgstr "<strong>Habitación No. :</strong>"
 #. module: hotel_restaurant
 #: model:ir.ui.view,arch_db:hotel_restaurant.report_reserv_order
 msgid "<strong>Room No.</strong>"
-msgstr "<strong>Room No.</strong>"
+msgstr "<strong>Habitacion No.</strong>"
 
 #. module: hotel_reservation
 #: model:ir.ui.view,arch_db:hotel_reservation.report_checkin_qweb
@@ -8826,7 +8826,7 @@ msgstr "<strong>Serial No. :</strong>"
 #. module: hotel_restaurant
 #: model:ir.ui.view,arch_db:hotel_restaurant.report_hotel_order_kot
 msgid "<strong>Served By</strong>"
-msgstr "<strong>Served By</strong>"
+msgstr "<strong>Servido por</strong>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
@@ -8862,7 +8862,7 @@ msgstr "<strong>Fecha de Inicio:</strong>"
 #. module: hotel_restaurant
 #: model:ir.ui.view,arch_db:hotel_restaurant.report_res_table
 msgid "<strong>Start Date</strong>"
-msgstr "<strong>Start Date</strong>"
+msgstr "<strong>Fecha de inicio</strong>"
 
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.report_statement
@@ -8880,7 +8880,7 @@ msgstr "<strong>Estado</strong>"
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.report_statement
 msgid "<strong>Statement Name</strong>:<br/>"
-msgstr "<strong>Declaración Nombre </strong>:<br/>"
+msgstr "<strong>Nombre de la declaracion</strong>:<br/>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
@@ -8891,7 +8891,7 @@ msgstr "<strong>Productos Almacenables </strong> están sujetos al sistema de ge
 #: model:ir.ui.view,arch_db:hotel_restaurant.report_order_bill
 #: model:ir.ui.view,arch_db:hotel_restaurant.report_res_order_bill
 msgid "<strong>Sub Total:</strong>"
-msgstr "<strong>Sub Total:</strong>"
+msgstr "<strong>SubTotal:</strong>"
 
 #. module: hotel_restaurant
 #: model:ir.ui.view,arch_db:hotel_restaurant.report_order_bill
@@ -8903,34 +8903,34 @@ msgstr "<strong>SubTotal</strong>"
 #: model:ir.ui.view,arch_db:account.report_overdue_document
 #: model:ir.ui.view,arch_db:hotel.report_currency_exchange
 msgid "<strong>Subtotal :</strong>"
-msgstr "<strong>Subtotal: </strong>"
+msgstr "<strong>SubTotal: </strong>"
 
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.report_invoice_layouted
 #: model:ir.ui.view,arch_db:sale.report_saleorder_document
 msgid "<strong>Subtotal: </strong>"
-msgstr "<strong>Subtotal: </strong>"
+msgstr "<strong>SubTotal: </strong>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.report_invoice_document
 msgid "<strong>Subtotal</strong>"
-msgstr "<strong>Subtotal</strong>"
+msgstr "<strong>SubTotal</strong>"
 
 #. module: hotel_restaurant
 #: model:ir.ui.view,arch_db:hotel_restaurant.report_order_bill
 #: model:ir.ui.view,arch_db:hotel_restaurant.report_res_order_bill
 msgid "<strong>Table Information</strong>"
-msgstr "<strong>Table Information</strong>"
+msgstr "<strong>Informacion de la tabla</strong>"
 
 #. module: hotel_restaurant
 #: model:ir.ui.view,arch_db:hotel_restaurant.report_hotel_order_kot
 msgid "<strong>Table Number</strong>"
-msgstr "<strong>Table Number</strong>"
+msgstr "<strong>Tabla No.</strong>"
 
 #. module: hotel_restaurant
 #: model:ir.ui.view,arch_db:hotel_restaurant.report_reserv_order
 msgid "<strong>Tables</strong>"
-msgstr "<strong>Tables</strong>"
+msgstr "<strong>Tablas</strong>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.report_agedpartnerbalance
@@ -8980,14 +8980,14 @@ msgstr "<strong>¡Esta operación borrará permanentemente todos los datos almac
 #: model:ir.ui.view,arch_db:hotel_restaurant.report_reserv_order
 #: model:ir.ui.view,arch_db:hotel_restaurant.report_rest_order
 msgid "<strong>To:</strong>"
-msgstr "<strong>A:</strong>"
+msgstr "<strong> </strong>"
 
 #. modules: hotel_restaurant, hotel_pos_restaurant
 #: model:ir.ui.view,arch_db:hotel_pos_restaurant.report_folio_pos
 #: model:ir.ui.view,arch_db:hotel_restaurant.report_reserv_order
 #: model:ir.ui.view,arch_db:hotel_restaurant.report_rest_order
 msgid "<strong>Total Orders</strong>"
-msgstr "<strong>Total Orders</strong>"
+msgstr "<strong>Ordenes totales</strong>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.report_inventory
@@ -9046,7 +9046,7 @@ msgstr "<strong>Vista :</strong>"
 #: model:ir.ui.view,arch_db:hotel_restaurant.report_order_bill
 #: model:ir.ui.view,arch_db:hotel_restaurant.report_res_order_bill
 msgid "<strong>Waiter Name</strong>"
-msgstr "<strong>Waiter Name</strong>"
+msgstr "<strong>Nombre del camarero</strong>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
@@ -9283,7 +9283,7 @@ msgstr "Un grupo es un conjunto de áreas funcionales que serán asignadas al us
 #. module: base
 #: model:ir.module.module,summary:base.module_hw_posbox_homepage
 msgid "A homepage for the PosBox"
-msgstr "A homepage for the PosBox"
+msgstr "Una página de inicio para PosBox"
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_move_journal_line
@@ -9313,22 +9313,23 @@ msgstr "Una lista de las condiciones de pago de sus clientes y proveedores."
 #: model:ir.module.module,description:base.module_test_exceptions
 #: model:ir.module.module,description:base.module_test_mimetypes
 msgid "A module to generate exceptions."
-msgstr "A module to generate exceptions."
+msgstr "
+Un módulo para generar excepciones."
 
 #. module: base
 #: model:ir.module.module,description:base.module_test_workflow
 msgid "A module to play with workflows."
-msgstr "A module to play with workflows."
+msgstr "Un módulo para jugar con flujos de trabajo."
 
 #. module: base
 #: model:ir.module.module,description:base.module_test_pylint
 msgid "A module to test Odoo with pylint."
-msgstr "A module to test Odoo with pylint."
+msgstr "Un módulo para probar Odoo con pylint."
 
 #. module: base
 #: model:ir.module.module,description:base.module_test_impex
 msgid "A module to test import/export."
-msgstr "A module to test import/export."
+msgstr "Un módulo para probar importación / exportación."
 
 #. module: base
 #: model:ir.module.module,description:base.module_test_new_api
@@ -9471,9 +9472,9 @@ msgid "A stockable product is a product for which you manage stock. The \"Invent
 "A service is a non-material product you provide.\n"
 "A digital content is a non-material product you sell online. The files attached to the products are the one that are sold on the e-commerce such as e-books, music, pictures,... The \"Digital Product\" module has to be installed."
 msgstr "Un producto almacenable es un producto para el que gestiona el stock. La aplicación \"Inventario\" debe instalarse.\n"
-"A consumable product, on the other hand, is a product for which stock is not managed.\n"
-"A service is a non-material product you provide.\n"
-"A digital content is a non-material product you sell online. The files attached to the products are the one that are sold on the e-commerce such as e-books, music, pictures,... The \"Digital Product\" module has to be installed."
+"Por el contrario, un producto consumible es un producto para el que no se gestiona el stock.\n"
+"Un servicio es un producto no material que usted proporciona.\n"
+"Un contenido digital es un producto no material que vende en línea. Los archivos adjuntos a los productos son los que se venden en el comercio electrónico, tales como libros electrónicos, música, fotos, ... El módulo \ "Producto Digital \" tiene que ser instalado."
 
 #. module: account
 #: sql_constraint:account.fiscal.position.tax:0
@@ -9524,7 +9525,7 @@ msgstr "Se puede establecer un aviso en un producto o un cliente (Venta)"
 #. module: hotel
 #: model:ir.ui.view,arch_db:hotel.report_currency_exchange
 msgid "A. Details of Foreign Currency Notes Purchased"
-msgstr "A. Details of Foreign Currency Notes Purchased"
+msgstr "A. Detalles de las notas en moneda extranjera compradas"
 
 #. module: report
 #: selection:report.paperformat,format:0
@@ -10214,7 +10215,7 @@ msgstr "Informe de balance de prueba de vencimientos"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_analytic_default
 msgid "Account Analytic Defaults"
-msgstr "Account Analytic Defaults"
+msgstr "Valores predeterminados analíticos de la cuenta"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -10667,7 +10668,7 @@ msgstr "Accounting chart for Netherlands\n"
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config_invoice_journal_id
 msgid "Accounting journal used to create invoices."
-msgstr "Accounting journal used to create invoices."
+msgstr "Diario de contabilidad utilizado para crear facturas."
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config_journal_id
@@ -11063,12 +11064,12 @@ msgstr "Actividad"
 #. module: hotel_housekeeping
 #: model:ir.actions.report.xml,name:hotel_housekeeping.report_housekeeping_activity_detail
 msgid "Activity Detail"
-msgstr "Activity Detail"
+msgstr "Detalle de actividad"
 
 #. module: hotel_housekeeping
 #: model:ir.model.fields,field_description:hotel_housekeeping.field_hotel_housekeeping_wizard_date_end
 msgid "Activity End Date"
-msgstr "Activity End Date"
+msgstr "Fecha de finalización de la actividad"
 
 #. module: hotel_housekeeping
 #: model:ir.ui.view,arch_db:hotel_housekeeping.view_hotel_housekeeping_form
@@ -11078,13 +11079,13 @@ msgstr "Líneas de actividad"
 #. module: hotel_housekeeping
 #: model:ir.actions.act_window,name:hotel_housekeeping.action_hotel_housekeeping_wizard
 msgid "Activity List"
-msgstr "Activity List"
+msgstr "Lista de actividad"
 
 #. module: hotel_housekeeping
 #: model:ir.ui.view,arch_db:hotel_housekeeping.view_h_activity_form
 #: model:ir.ui.view,arch_db:hotel_housekeeping.view_hotel_housekeeping_activity_type_form
 msgid "Activity Name"
-msgstr "Activity Name"
+msgstr "Nombre de actividad"
 
 #. module: hotel_housekeeping
 #: model:ir.ui.menu,name:hotel_housekeeping.wizard_activity_menu
@@ -11095,7 +11096,7 @@ msgstr "Informe de actividades"
 #. module: hotel_housekeeping
 #: model:ir.model.fields,field_description:hotel_housekeeping.field_hotel_housekeeping_wizard_date_start
 msgid "Activity Start Date"
-msgstr "Activity Start Date"
+msgstr "Fecha de inicio de la actividad"
 
 #. module: hotel_housekeeping
 #: model:ir.model,name:hotel_housekeeping.model_hotel_housekeeping_activity_type
@@ -11317,7 +11318,7 @@ msgstr "Contactos Adicionale"
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_res_company_additional_hours
 msgid "Additional Hours"
-msgstr "Additional Hours"
+msgstr "Horal adicional"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_picking_form
@@ -12329,7 +12330,7 @@ msgstr "Cantidad Firmada"
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_currency_exchange_in_amount
 msgid "Amount Taken"
-msgstr "Amount Taken"
+msgstr "Cantidad tomada"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_partial_reconcile_amount
@@ -13101,7 +13102,7 @@ msgstr "A precio de venta"
 #. module: hotel
 #: model:ir.model.fields,help:hotel.field_hotel_room_floor_id
 msgid "At which floor the room is located."
-msgstr "At which floor the room is located."
+msgstr "En que piso la habitación está situada"
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_base_config_settings_module_google_drive
@@ -13731,7 +13732,7 @@ msgstr "Entregas parciales"
 #. module: hotel_housekeeping
 #: selection:hotel.housekeeping,quality:0
 msgid "Bad"
-msgstr "Bad"
+msgstr "Malo"
 
 #. module: account
 #: selection:res.partner,trust:0
@@ -14225,8 +14226,8 @@ msgstr "Antes de la Cantidad"
 #, python-format
 msgid "Before choosing a room,\n"
 " You have to select                              a Check in date or a Check out date in                              the reservation form."
-msgstr "Before choosing a room,\n"
-" You have to select                              a Check in date or a Check out date in                              the reservation form."
+msgstr "Antes de elegir una habitación,\n"
+"usted debe de seleccionar                              una fecha de entrada o una fecha de salida en                             el formulario de reserva."
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -15494,12 +15495,12 @@ msgstr "Cajero"
 #: model:ir.ui.view,arch_db:hotel.view_hotel_services_search
 #: model:ir.ui.view,arch_db:hotel_housekeeping.view_h_activity_search
 msgid "Catagory"
-msgstr "Catagory"
+msgstr "Categoria"
 
 #. module: hotel
 #: model:ir.actions.act_window,name:hotel.action_room_cate
 msgid "Categories"
-msgstr "Categories"
+msgstr "Categorias"
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,help:point_of_sale.product_pos_category_action
@@ -15557,7 +15558,7 @@ msgstr "Categoría de Cuenta de Ingresos"
 #. module: hotel_restaurant
 #: model:ir.ui.view,arch_db:hotel_restaurant.hotel_manucard_kanban_view
 msgid "Category:"
-msgstr "Category:"
+msgstr "Categoria:"
 
 #. module: product
 #: code:addons/product/models/product_pricelist.py:429
@@ -15568,7 +15569,7 @@ msgstr "Categoría: %s"
 #. module: hotel_restaurant
 #: model:ir.ui.view,arch_db:hotel_restaurant.view_hotel_menucard_search_new
 msgid "Categoty"
-msgstr "Categoty"
+msgstr "Categoria"
 
 #. module: base
 #: model:res.country,name:base.ky
@@ -15965,13 +15966,13 @@ msgstr "Marque esta casilla si quiere que este producto aparezca en el Punto de 
 #: code:addons/hotel/models/hotel.py:383
 #, python-format
 msgid "Check in Date Should be                 less than the Check Out Date!"
-msgstr "Check in Date Should be                 less than the Check Out Date!"
+msgstr "Fecha de registro debe ser                 menor que la fecha de salida!"
 
 #. module: hotel
 #: code:addons/hotel/models/hotel.py:387
 #, python-format
 msgid "Check in date should be                 greater than the current date."
-msgstr "Check in date should be                 greater than the current date."
+msgstr "La fecha de llegada debe ser                 mayor que la fecha actual."
 
 #. module: base
 #: model:ir.module.module,summary:base.module_account_check_printing
@@ -16111,7 +16112,7 @@ msgstr "Check-In"
 #. module: hotel_reservation
 #: model:ir.ui.view,arch_db:hotel_reservation.report_checkin_qweb
 msgid "Check-In Guest List"
-msgstr "Check-In Guest List"
+msgstr "Lista de Check-in del huesped"
 
 #. module: hotel_housekeeping
 #: selection:hotel.housekeeping,clean_type:0
@@ -16121,7 +16122,7 @@ msgstr "Check-Out"
 #. module: hotel_reservation
 #: model:ir.ui.view,arch_db:hotel_reservation.report_checkout_qweb
 msgid "Check-Out Guest List"
-msgstr "Check-Out Guest List"
+msgstr "Lista deCheck-Out del huesped"
 
 #. module: hotel_reservation
 #: model:ir.actions.report.xml,name:hotel_reservation.hotel_checkin_details
@@ -16136,7 +16137,7 @@ msgstr "Lista de facturaciones"
 #. module: hotel_reservation
 #: model:ir.actions.report.xml,name:hotel_reservation.hotel_checkout_details
 msgid "CheckOut Detail"
-msgstr "Detalles de salida"
+msgstr "Detalles de CheckOut"
 
 #. module: hotel_reservation
 #: model:ir.ui.view,arch_db:hotel_reservation.hotel_reservation_wizard_form_view
@@ -16151,48 +16152,48 @@ msgstr "Cantidad comprobada"
 #. module: hotel_housekeeping
 #: model:ir.model.fields,help:hotel_housekeeping.field_hotel_housekeeping_activities_dirty
 msgid "Checked if the housekeeping activityresults as Dirty."
-msgstr "Checked if the housekeeping activityresults as Dirty."
+msgstr "Comprobado si la actividad de limpieza resulta como sucio."
 
 #. module: hotel_housekeeping
 #: model:ir.model.fields,help:hotel_housekeeping.field_hotel_housekeeping_activities_clean
 msgid "Checked if the housekeepingactivity results as Clean."
-msgstr "Checked if the housekeepingactivity results as Clean."
+msgstr "Comprobado si la actividad de limpieza de la casa resulta como limpia."
 
 #. module: hotel_reservation
 #: code:addons/hotel_reservation/models/hotel_reservation.py:175
 #, python-format
 msgid "Checkin date should be                 greater than the current date."
-msgstr "Checkin date should be                 greater than the current date."
+msgstr "La fecha de registro debe ser                 mayor que la fecha actual."
 
 #. module: l10n_co_dreamsoft_hotel_reservation
 #: code:addons/l10n_co_dreamsoft_hotel_reservation/models/hotel_reservation_inherit.py:80
 #, python-format
 msgid "Checkout date 							should be greater than Checkin date."
-msgstr "Checkout date 							should be greater than Checkin date."
+msgstr "La fecha del CheckOut							debe ser mayor a la fecha del CheckIn."
 
 #. module: hotel_reservation
 #: code:addons/hotel_reservation/models/hotel_reservation.py:178
 #, python-format
 msgid "Checkout date                 should be greater than Checkin date."
-msgstr "Checkout date                 should be greater than Checkin date."
+msgstr "La fecha del CheckOut							debe ser mayor a la fecha del CheckIn."
 
 #. module: hotel_reservation
 #: code:addons/hotel_reservation/models/hotel_reservation.py:774
 #, python-format
 msgid "Checkout date should be greater                                  than Checkin date."
-msgstr "Checkout date should be greater                                  than Checkin date."
+msgstr "La fecha del CheckOut debe ser mayor                            a la fecha del CheckIn."
 
 #. module: hotel_reservation
 #: code:addons/hotel_reservation/models/hotel_reservation.py:363
 #, python-format
 msgid "Checkout date should be greater                                  than the Checkin date."
-msgstr "Checkout date should be greater                                  than the Checkin date."
+msgstr "La fecha del CheckOut debe ser mayor                            a la fecha del CheckIn."
 
 #. module: hotel
 #: code:addons/hotel/models/hotel.py:1056
 #, python-format
 msgid "Checkout must be greater or equal checkin date"
-msgstr "Checkout must be greater or equal checkin date"
+msgstr "La fecha del Checkout debe ser mayor o igual a la fecha del checkin"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_move_partially_available
@@ -16414,17 +16415,17 @@ msgstr "Limpio"
 #. module: hotel_housekeeping
 #: model:ir.model.fields,field_description:hotel_housekeeping.field_hotel_housekeeping_activities_clean_end_time
 msgid "Clean End Time"
-msgstr "Clean End Time"
+msgstr "Tiempo final de la limpieza"
 
 #. module: hotel_housekeeping
 #: model:ir.model.fields,field_description:hotel_housekeeping.field_hotel_housekeeping_activities_clean_start_time
 msgid "Clean Start Time"
-msgstr "Clean Start Time"
+msgstr "Tiempo inicial de la limpieza"
 
 #. module: hotel_housekeeping
 #: model:ir.model.fields,field_description:hotel_housekeeping.field_hotel_housekeeping_clean_type
 msgid "Clean Type"
-msgstr "Clean Type"
+msgstr "Tipo de Limpieza"
 
 #. module: web
 #. openerp-web
@@ -18612,7 +18613,7 @@ msgstr "Crear una nota de crédito borrador"
 #: code:addons/sales_team/static/src/xml/sales_team_dashboard.xml:215
 #, python-format
 msgid "Create a few opportunities in it."
-msgstr "Create a few opportunities in it."
+msgstr "Crear algunas oportunidades en ello."
 
 #. module: base
 #: selection:ir.actions.server,use_create:0
@@ -19443,7 +19444,7 @@ msgstr "Monto de crédito"
 #. module: base
 #: model:ir.module.module,summary:base.module_pos_mercury
 msgid "Credit card support for Point Of Sale"
-msgstr "Credit card support for Point Of Sale"
+msgstr "Tarjeta de crédito para el punto de venta"
 
 #. module: payment
 #: model:ir.ui.view,arch_db:payment.view_partners_form_payment_defaultcreditcard
@@ -19583,7 +19584,7 @@ msgstr "Código de la Moneda (ISO 4217)"
 #: model:ir.ui.view,arch_db:hotel.view_currency_exchange_tree
 #, python-format
 msgid "Currency Exchange"
-msgstr "Currency Exchange"
+msgstr "Cambio de divisas"
 
 #. modules: account, base
 #: model:ir.model.fields,field_description:account.field_account_invoice_report_currency_rate
@@ -19626,7 +19627,7 @@ msgstr "Activos Corrientes"
 #: model:ir.ui.view,arch_db:hotel.view_hotel_folio_search
 #: model:ir.ui.view,arch_db:hotel_restaurant.view_hotel_restaurant_reservation_search
 msgid "Current Booking"
-msgstr "Current Booking"
+msgstr "Reservas actuales"
 
 #. module: base
 #: model:ir.ui.view,arch_db:base.view_users_form
@@ -19706,7 +19707,7 @@ msgstr "Cantidad actual de los productos.\n"
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config_current_session_state
 msgid "Current session state"
-msgstr "Current session state"
+msgstr "Estado actual de la sesión"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_compose_message_starred
@@ -19718,7 +19719,7 @@ msgstr "El usuario actual tiene una notificación destacada enlazada a este mens
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio_currrency_ids
 msgid "Currrency ids"
-msgstr "Currrency ids"
+msgstr "ID de moneda"
 
 #. modules: report, web_editor, base, payment
 #. openerp-web
@@ -19762,7 +19763,7 @@ msgstr "Pie de informe personalizado"
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_base_config_settings_rml_footer
 msgid "Custom Report Footer *"
-msgstr "Custom Report Footer *"
+msgstr "Pie de página del informe personalizado *"
 
 #. module: base
 #: model:ir.ui.menu,name:base.menu_administration_shortcut
@@ -19783,7 +19784,7 @@ msgstr "Pie de página personalizado"
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_base_config_settings_custom_footer
 msgid "Custom footer *"
-msgstr "Custom footer *"
+msgstr "Pie de página personalizado *"
 
 #. modules: account, hotel, hotel_reservation, sale, analytic, point_of_sale, stock
 #. openerp-web
@@ -19883,7 +19884,7 @@ msgstr "Ubicaciones de Cliente"
 #: model:ir.model.fields,field_description:hotel_restaurant.field_hotel_restaurant_reservation_cname
 #: model:ir.ui.view,arch_db:hotel_restaurant.view_hotel_restaurant_reservation_search
 msgid "Customer Name"
-msgstr "Customer Name"
+msgstr "Nombre del cliente "
 
 #. module: hotel_restaurant
 #: model:ir.ui.view,arch_db:hotel_restaurant.report_order_bill
@@ -19906,7 +19907,7 @@ msgstr "Plazo de pago de cliente"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_rating
 msgid "Customer Rating"
-msgstr "Customer Rating"
+msgstr "Valoración de los clientes"
 
 #. modules: hotel_restaurant, product, hotel, hotel_housekeeping
 #: model:ir.model.fields,field_description:hotel.field_hotel_room_amenities_partner_ref
@@ -19927,7 +19928,7 @@ msgstr "Referencia Cliente"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_customer
 msgid "Customer References"
-msgstr "Customer References"
+msgstr "Referecnias de los clientes"
 
 #. module: account
 #: selection:account.invoice,type:0
@@ -19961,12 +19962,12 @@ msgstr "Ref. cliente:"
 #. module: hotel
 #: model:ir.ui.view,arch_db:hotel.view_hotel_services_form
 msgid "Customer taxes applied on the service."
-msgstr "Customer taxes applied on the service."
+msgstr "Impuestos sobre el cliente aplicados al servicio."
 
 #. module: hotel
 #: model:ir.ui.view,arch_db:hotel.view_hotel_room_form
 msgid "Customer taxes apply on the perticular room."
-msgstr "Customer taxes apply on the perticular room."
+msgstr "Los impuestos de los clientes se aplican en la habitación en particular."
 
 #. modules: account, sale, base, mail, sales_team, stock
 #. openerp-web
@@ -19987,7 +19988,7 @@ msgstr "Cliente"
 #. module: base
 #: model:ir.module.module,summary:base.module_contacts
 msgid "Customers, Vendors, Partners,..."
-msgstr "Customers, Vendors, Partners,..."
+msgstr "Clientes, Vendedores, Partners,..."
 
 #. module: web_editor
 #. openerp-web
