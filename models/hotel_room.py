@@ -36,19 +36,15 @@ class hotel_room(models.Model):
 	_name = 'hotel.room'
 	_inherit = 'hotel.room'
 
-
 	additional_people = fields.Boolean('Permitir Personas Adicionales')
 	quantity_people= fields.Integer('Cantidad Personas Adicionales')
 	value_person= fields.Integer('Valor por Persona')
 	
-
 	@api.constrains('capacity')
 	def verificar_capacidad(self):
 
 		if self.capacity<=0:
 			raise except_orm(_('Warning'), _('La capacidad debe ser mayor a cero(0)'))
-
-
 
 	@api.constrains('name')
 	def validar_nombre_habitacion(self):
@@ -60,23 +56,3 @@ class hotel_room(models.Model):
 			if nombre:
 				raise except_orm(_('Warning'), _('La habiacion ya existe.'))
 		return True
-
-
-
-	"""
-	@api.onchange('cname')
-	def onchange_partner_id(self):
-		'''
-		When Customer name is changed respective adress will display
-		in Adress field
-		@param self: object pointer
-		'''
-		if not self.cname:
-			self.partner_address_id = False
-		else:
-			addr = self.cname.address_get(['default'])
-			self.partner_address_id = addr['default']
-
-	"""
-
-

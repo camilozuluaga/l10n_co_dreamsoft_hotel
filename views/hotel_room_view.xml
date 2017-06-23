@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <openerp>
 	<data>
-
 		<!-- Inherit view hotel restaurant reservation form-->
 		<record model="ir.ui.view" id="view_hotel_room">
 			<field name="model">hotel.room</field>
@@ -20,12 +19,9 @@
 						<attribute name="String">Capacidad</attribute>
 						
 				</xpath>
-
-
 				<!-- End fields to allow additional people to the room  -->
-				
+
 			</field>
 		</record>
-
 	</data>
 </openerp>
