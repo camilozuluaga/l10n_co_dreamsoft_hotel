@@ -50,6 +50,18 @@ class hotel_room(models.Model):
 
 
 
+	@api.constrains('name')
+	def validar_nombre_habitacion(self):
+		_logger.info(self.ids)
+		for datos in self.browse(self.ids):
+			nombre=self.search( [('name', '=', datos.name), ('id', '<>', datos.id)])
+
+			_logger.info(nombre)
+			if nombre:
+				raise except_orm(_('Warning'), _('La habiacion ya existe.'))
+		return True
+
+
 
 	"""
 	@api.onchange('cname')

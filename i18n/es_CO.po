@@ -13509,7 +13509,7 @@ msgstr "Productos disponibles"
 #. module: hotel
 #: model:ir.ui.view,arch_db:hotel.view_hotel_room_search
 msgid "Available Rooms"
-msgstr "Available Rooms"
+msgstr "Habitaciones disponibles"
 
 #. module: web
 #. openerp-web
@@ -14906,7 +14906,7 @@ msgstr "La vista calendario no tiene definido el atributo 'date_start'."
 #. module: base
 #: model:ir.module.module,summary:base.module_stock_calendar
 msgid "Calendars "
-msgstr "Calendars "
+msgstr "Calendarios "
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_stock_calendar
@@ -45833,19 +45833,19 @@ msgstr "Pedido de reserva"
 #. module: hotel_reservation
 #: model:ir.ui.view,arch_db:hotel_reservation.room_reservation_summary_form_view
 msgid "Reservation Summary"
-msgstr "Reservation Summary"
+msgstr "Resumen de la reserva"
 
 #. module: hotel_reservation
 #: model:ir.actions.act_window,name:hotel_reservation.action_hotel_reservation_tree_all
 #: model:ir.ui.menu,name:hotel_reservation.menu_action_hotel_reservation_tree_all
 #: model:ir.ui.menu,name:hotel_reservation.menu_hotel_reservation
 msgid "Reservations"
-msgstr "Reservations"
+msgstr "Reservas"
 
 #. module: hotel_reservation
 #: model:ir.ui.menu,name:hotel_reservation.menu_action_hotel_reservation_summary
 msgid "Reservations Summary"
-msgstr "Reservations Summary"
+msgstr "Resumen de las reservas"
 
 #. module: report_hotel_restaurant
 #: model:ir.model.fields,field_description:report_hotel_restaurant.field_report_hotel_restaurant_status_nbr
@@ -45887,7 +45887,7 @@ msgstr "Quants Reservados"
 #. module: hotel
 #: model:ir.ui.view,arch_db:hotel.view_hotel_room_search
 msgid "Reserved Rooms"
-msgstr "Reserved Rooms"
+msgstr "Habitaciones reservadas"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_quant_reservation_id
@@ -46416,12 +46416,12 @@ msgstr "Room Reservation Line"
 #. module: hotel_reservation
 #: model:ir.ui.view,arch_db:hotel_reservation.room_reservation_summary_form_view
 msgid "Room Reservation Summary"
-msgstr "Room Reservation Summary"
+msgstr "Resumen de reserva de la habitación"
 
 #. module: hotel_reservation
 #: model:ir.actions.act_window,name:hotel_reservation.action_hotel_reservation_summary
 msgid "Room Reservations Summary"
-msgstr "Room Reservations Summary"
+msgstr "Resumen de las reservas de las habitaciones"
 
 #. module: hotel_reservation
 #: model:ir.model.fields,field_description:hotel_reservation.field_hotel_room_room_reservation_line_ids
@@ -46437,7 +46437,7 @@ msgstr "Estado de la habitación"
 #: model:ir.model.fields,field_description:hotel_reservation.field_room_reservation_summary_room_summary
 #: model:ir.ui.view,arch_db:hotel_reservation.room_reservation_summary_form_view
 msgid "Room Summary"
-msgstr "Room Summary"
+msgstr "Resumen de la habitación"
 
 #. modules: hotel, hotel_reservation
 #: model:ir.actions.act_window,name:hotel.open_hotel_room_type_form_tree
@@ -46506,7 +46506,7 @@ msgstr "Tarifa habitación"
 #: model:ir.model,name:hotel_reservation.model_room_reservation_summary
 #: model:ir.model,name:l10n_co_dreamsoft_hotel_reservation.model_room_reservation_summary
 msgid "Room reservation summary"
-msgstr "Room reservation summary"
+msgstr "Resumen de reserva de la habitación"
 
 #. modules: hotel, hotel_reservation
 #: model:ir.ui.menu,name:hotel.menu_open_hotel_room_form
@@ -50553,17 +50553,17 @@ msgstr "Suma de subtotales"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_module_module_summary
 msgid "Summary"
-msgstr "Sumario"
+msgstr "Resumen"
 
 #. module: hotel_reservation
 #: model:ir.model.fields,field_description:hotel_reservation.field_room_reservation_summary_summary_header
 msgid "Summary Header"
-msgstr "Summary Header"
+msgstr "Encabezado de resumen"
 
 #. module: hotel_reservation
 #: model:ir.ui.view,arch_db:hotel_reservation.room_reservation_summary_form_view
 msgid "Summary Period"
-msgstr "Summary Period"
+msgstr "Período resumido"
 
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.view_pos_session_form

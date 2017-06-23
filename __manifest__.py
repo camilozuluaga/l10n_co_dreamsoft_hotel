@@ -13,7 +13,9 @@
     'depends': ['hotel'],
     'data': [
         "views/product_product_inherit_view.xml",
-        "views/hotel_room_view.xml"
+        "views/hotel_room_view.xml", 
+        "views/product_category_inherit_view.xml",
+        "views/product_template_inherit_view.xml",
 
     ],
     'qweb': [],
