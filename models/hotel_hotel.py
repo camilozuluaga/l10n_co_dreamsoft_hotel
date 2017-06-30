@@ -50,7 +50,6 @@ class hotel_hotel(models.Model):
 
 
 
-
 	def fecha_UTC(self,fecha_usuario):
 
 		if  self._context is None:
@@ -72,6 +71,29 @@ class hotel_hotel(models.Model):
 
 
 
+
+	def calcular_edad(self,fecha_nacimiento):
+		current_date = datetime.datetime.now()
+		st_birth_date = datetime.datetime.strptime(fecha_nacimiento, DEFAULT_SERVER_DATE_FORMAT)
+		re = current_date - st_birth_date
+		dif_days = re.days
+		age = dif_days
+		age_unit = ''
+		if age < 30:
+			age_unit = '3'
+
+		elif age > 30 and age < 365:
+			age = age / 30
+			age = int(age)
+			age_unit = '2'
+
+		elif age >= 365:
+			age = int((current_date.year-st_birth_date.year-1) + (1 if (current_date.month, current_date.day) >= (st_birth_date.month, st_birth_date.day) else 0))
+			age_unit = '1'
+		
+		retorno = {'edad': age, 'unidad_edad': age_unit}
+
+		return retorno
 
 
 
