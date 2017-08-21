@@ -42,9 +42,15 @@ class hotel_room(models.Model):
 	
 	@api.constrains('capacity')
 	def verificar_capacidad(self):
-
 		if self.capacity<=0:
 			raise except_orm(_('Warning'), _('La capacidad debe ser mayor a cero(0)'))
+
+
+	@api.constrains('additional_people', 'quantity_people')
+	def verificar_capacidad_add(self):
+		if self.additional_people:
+			if self.quantity_people <= 0:
+				raise except_orm(_('Warning'), _('Selecciono persona adicional por ende el campo adicional no puede ser cero(0) '))
 
 	@api.constrains('name')
 	def validar_nombre_habitacion(self):
