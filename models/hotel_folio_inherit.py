@@ -57,3 +57,19 @@ class hotel_folio_inherit(models.Model):
 				
 		return res 
 
+	@api.constrains('checkin_date', 'checkout_date')
+	def check_dates(self):
+		'''
+		This method is used to validate the checkin_date and checkout_date.
+		-------------------------------------------------------------------
+		@param self: object pointer
+		@return: raise warning depending on the validation
+		'''
+		if self.checkin_date >= self.checkout_date:
+				raise ValidationError(_('Check in Date Should be \
+				less than the Check Out Date!'))
+		if self.date_order and self.checkin_date:
+			if self.checkin_date[0:10] < self.date_order[0:10]:
+				raise ValidationError(_('Check in date should be \
+				greater than the current date.'))
+
