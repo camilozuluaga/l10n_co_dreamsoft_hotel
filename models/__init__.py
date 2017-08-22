@@ -3,3 +3,4 @@ import hotel_hotel
 import hotel_room
 import product_category_inherit
 import product_template_inherit
+import hotel_folio_line_inherit
