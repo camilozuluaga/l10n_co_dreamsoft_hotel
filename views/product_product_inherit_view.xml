@@ -9,7 +9,7 @@
       <field name="arch" type="xml">
 
           <field name="categ_id" position="attributes">
-            <attribute name="domain">[('isroomtype', '=', False)]</attribute>
+            <attribute name="domain">[('isroom', '=', False)]</attribute>
           </field>
 
  

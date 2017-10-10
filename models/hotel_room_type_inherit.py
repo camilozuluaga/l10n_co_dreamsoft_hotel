@@ -31,33 +31,33 @@ from decimal import Decimal
 import logging
 _logger = logging.getLogger(__name__)
 
-class hotel_room(models.Model):
 
-	_name = 'hotel.room'
-	_inherit = 'hotel.room'
+class HotelRoomType(models.Model):
 
-	additional_people = fields.Boolean('Permitir Personas Adicionales')
-	quantity_people= fields.Integer('Cantidad Personas Adicionales')
-	
-	@api.constrains('capacity')
-	def verificar_capacidad(self):
-		if self.capacity<=0:
-			raise except_orm(_('Warning'), _('La capacidad debe ser mayor a cero(0)'))
+	_name = "hotel.room.type"
+	_inherit = "hotel.room.type"
+	_description = "Room Type"
 
 
-	@api.constrains('additional_people', 'quantity_people')
-	def verificar_capacidad_add(self):
-		if self.additional_people:
-			if self.quantity_people <= 0:
-				raise except_orm(_('Warning'), _('Selecciono persona adicional por ende el campo adicional no puede ser cero(0) '))
+	@api.model
+	def create(self, vals, check=True):
+		"""
+		sobreescribimos el metodo create para que los 
+		usuarios no puedan sino crear un solo registro 
+		para la configuracion de los horarios.
+		
+		@param self: The object pointer
+		@param vals: dictionary of fields value.
+		@return: new record set for hotel folio.
+		"""
+		guardo = super(HotelRoomType, self).create(vals) 
+		
+		if guardo:
+			nombre_producto = ('Persona adicional {0}'.format(vals['name']))
+			vals_producto = {'name' : nombre_producto, 'sale_ok' : True, 'purchase_ok' : False, 'type' : 'service',
+								'isservice': True}
+			self.env['product.product'].create(vals_producto)
 
-	@api.constrains('name')
-	def validar_nombre_habitacion(self):
-		_logger.info(self.ids)
-		for datos in self.browse(self.ids):
-			nombre=self.search( [('name', '=', datos.name), ('id', '<>', datos.id)])
 
-			_logger.info(nombre)
-			if nombre:
-				raise except_orm(_('Warning'), _('La habiacion ya existe.'))
-		return True
+		return guardo
+

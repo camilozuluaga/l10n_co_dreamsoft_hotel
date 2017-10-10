@@ -11,13 +11,11 @@
 				<xpath expr="//field[@name='capacity']" position="after">
 					<field name="additional_people"/>
 					<field name="quantity_people" attrs="{'invisible':[('additional_people','=',False)], 'required':[('additional_people','=',True)]}"/>
-					<field name="value_person" attrs="{'invisible':[('additional_people','=',False)], 'required':[('additional_people','=',True)]}"/>
 				</xpath>
 
 				<xpath expr="//field[@name='capacity']" position="attributes">
 						<attribute name="required">True</attribute>
 						<attribute name="String">Capacidad</attribute>
-						
 				</xpath>
 				<!-- End fields to allow additional people to the room  -->
 
