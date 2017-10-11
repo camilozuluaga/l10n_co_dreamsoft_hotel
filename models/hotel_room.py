@@ -38,6 +38,7 @@ class hotel_room(models.Model):
 
 	additional_people = fields.Boolean('Permitir Personas Adicionales')
 	quantity_people= fields.Integer('Cantidad Personas Adicionales')
+	servicio_persona_adicional = fields.Many2one('product.product', 'Servicio Asociado')
 	
 	@api.constrains('capacity')
 	def verificar_capacidad(self):

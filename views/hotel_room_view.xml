@@ -11,6 +11,7 @@
 				<xpath expr="//field[@name='capacity']" position="after">
 					<field name="additional_people"/>
 					<field name="quantity_people" attrs="{'invisible':[('additional_people','=',False)], 'required':[('additional_people','=',True)]}"/>
+					<field name="servicio_persona_adicional" domain="[('isservice','=',True)]" attrs="{'invisible':[('additional_people','=',False)], 'required':[('additional_people','=',True)]}" />
 				</xpath>
 
 				<xpath expr="//field[@name='capacity']" position="attributes">

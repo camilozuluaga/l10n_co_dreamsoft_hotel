@@ -16,7 +16,7 @@
         "views/hotel_room_view.xml", 
         "views/product_category_inherit_view.xml",
         "views/product_template_inherit_view.xml",
-      
+        "data/servicio_adicional_product_data.xml",
     ],
     'qweb': [],
     'installable': True,
